@@ -1,0 +1,365 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 2000px;
+    border: 0.5px solid black;
+    
+}
+
+header
+{
+    width: 100%;
+    height:60pt;
+    display: flex;
+    flex-direction: row;
+    background-color: #333333;
+}
+
+.logo
+{
+   width: 30%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo a{
+    color: white;
+    height: 100%;
+    font-size:48pt;
+    text-decoration: none;
+}
+
+.nav{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+.nav ul li{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.category
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:50pt;
+    display: flex;
+    flex-direction: row;
+}
+
+.category .c-list{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.c-list ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;   
+}
+
+.c-list ul li{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-evenly;
+}
+    
+.c-list ul li a{
+        color:#333333;
+        text-decoration: none;
+ }
+
+ .search-box
+ {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .search-box input{
+    width: 70%;
+    height: 75%;
+ }
+
+
+/*----------------------------Banner Section-------------------- */
+
+.banner{
+    width: 100%;
+    height:350px;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(190, 187, 187);
+}
+
+.banner .ban{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #333333
+}
+
+.banner .ban-data{
+    padding: 5%;
+}
+.banner .ban .mask{
+    width: 50%;
+    height: 50%;
+}
+
+.banner .ban .mask img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner .ban .mask-quote{
+    font-size: 42px;
+}
+
+.ban-data
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding-left: 10%;
+    color: #333333;
+}
+.ban-data div
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+/*----------------------DEALS----------------------------*/
+.deals{
+    width: 100%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+.deals .deal-head{
+    height:20%;
+    width: 100%;
+}
+
+.deals .deal-head p
+{
+  font-size: 18px;
+  color: #333333;
+}
+.deals .deal-boxes{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+}
+
+.deals .deal-boxes div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding-right: 10px;
+}
+
+.deals .deal-boxes div .upper
+{
+   height: 80%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.deals .deal-boxes div .upper img
+{
+   height: 100%;
+   width: 100%;
+}
+
+.deals .deal-boxes div .lower
+{
+   padding-top: 10px;
+   height: 20%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 5px;
+   font-size:11px;
+}
+
+/*--------------------Fashion Categories-------------------------*/
+.fashion
+{
+     width: 100%;
+     height: 500px;
+     display: flex;
+     flex-direction: column;
+     padding:0 5%;
+}
+
+.fashion .fc-name
+{
+    width: 100%;
+    height: 10%;
+    font-size: 18px;
+}
+
+
+.fashion .fc-boxes{
+    width: 100%;
+    height: 97%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fashion .fc-boxes .fc-box1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+
+.fashion .fc-boxes .fc-box1 div{
+    width: 100%;
+    height: 100%;
+}
+.fashion .fc-boxes .fc-box1 div .upper-post{
+    width: 100%;
+    height: 80%;
+}
+.fashion .fc-boxes .fc-box1 div .upper-post img{
+    width: 82%;
+    height: 100%;
+}
+.fashion .fc-boxes .fc-box1 div  .lower-post{
+    width: 82%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #dbf3fa;
+}
+
+
+.fashion .fc-boxes .fc-box2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fashion .fc-boxes .fc-box2 div{
+    width: 100%;
+    height: 100%;
+}
+.fashion .fc-boxes .fc-box2 div .upper-post{
+    width: 100%;
+    height: 80%;
+}
+.fashion .fc-boxes .fc-box2 div .upper-post img{
+    width: 82%;
+    height: 100%;
+}
+.fashion .fc-boxes .fc-box2 div .lower-post{
+    width: 82%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #dbf3fa;
+}
+
+/*----------------------------brands-------------------------------*/
+.brands{
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+}
+
+.brands p{
+    height: 100%;
+    width: 100%;
+    padding: 0 5%;
+    color: #333333;
+    font-size: 14pt;
+}
+
+/*----------------------------pre-foot-------------------------------*/
+.foot{
+    width: 100%;
+    height: 500px;
+    background-color: #131a22;
+}
+
+.upp-foot{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #131a22;
+}
+
+.upp-foot p{
+    color: white;
+}
+
+.low-foot p{
+    height: 5%;
+    color: red;
+    padding-left: 50px;
+}
